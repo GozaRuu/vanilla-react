@@ -5,6 +5,9 @@
   "main": "lib/server.js",
   "author": "Kais Sghari",
   "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.7.0",
@@ -12,6 +15,7 @@
   },
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pm2": "^3.2.2"
   }
 }
