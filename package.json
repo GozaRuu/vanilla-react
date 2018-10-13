@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-react",
+  "version": "0.1.0",
+  "description": "pure server rendring react app with a webpack custom configuration and load balancing",
+  "main": "lib/server.js",
+  "author": "Kais Sghari",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
