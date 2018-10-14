@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec babel-node --presets=react,env,stage-2 lib/server.js",
-    "webpack": "webpack -d"
+    "webpack": "webpack -d",
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -31,6 +32,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "jest": "^23.6.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "webpack": "^4.20.2"
