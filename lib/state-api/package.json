@@ -1,0 +1,8 @@
+{
+  "name": "state-api",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/GozaRuu/state-api",
+  "author": "Kais Sghari",
+  "license": "MIT"
+}
