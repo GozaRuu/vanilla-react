@@ -6,7 +6,7 @@
   "author": "Kais Sghari",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node --presets=react,env,stage-2 lib/server.js",
+    "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node --presets=react,env,stage-2 lib/server.js",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
