@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec babel-node --presets=react,env,stage-2 lib/server.js",
-    "webpack": "webpack -d",
+    "webpack": "webpack -wd",
     "test": "jest --watch"
   },
   "babel": {
